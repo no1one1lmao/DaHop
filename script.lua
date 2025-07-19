@@ -1,3 +1,7 @@
+if queue_on_teleport then
+     queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/no1one1lmao/DaHop/refs/heads/main/script.lua"))()')
+end
+
 local ScreenGui = Instance.new("ScreenGui")
 local Draggable = Instance.new("Frame")
 local Main = Instance.new("Frame")
